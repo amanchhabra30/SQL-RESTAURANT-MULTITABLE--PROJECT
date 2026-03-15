@@ -1,106 +1,40 @@
-🍽️ Restaurant Orders Data Analysis using SQL
-📌 Project Description
+# SQL Restaurant Data Analysis Project
 
-This project focuses on analyzing restaurant order data using SQL to uncover valuable business insights related to customer behavior, sales performance, and menu popularity. The analysis uses relational database tables to answer real-world business questions and support data-driven decision-making.
+## 📌 Objective
+This project uses SQL to analyze restaurant order data from multiple relational tables, uncovering actionable business insights related to customer behavior, sales trends, and menu performance. 
 
-This project demonstrates strong SQL skills including joins, aggregations, filtering, grouping, and subqueries.
+## 🧠 Business Questions Answered
+1. What items are ordered most and least frequently?  
+2. Which orders generate the highest revenue?  
+3. How do different categories contribute to total sales?  
+4. What are patterns in customer ordering behavior by date and time?
 
-ATTACH FILES:
-restaurant-with answers , readme -crux of all files , data file-to test and run
+## 📊 Key Insights (Results Summary)
+✔ Identified *top revenue‑generating meals*  
+✔ Found *menu categories with high and low demand*  
+✔ Highlighted *high‑value orders* that influence inventory and pricing decisions
 
-🗂️ Database Schema
 
-The project uses two main tables:
+## 🛠️ SQL Skills & Techniques Used
+- `SELECT`, `JOIN` (INNER, LEFT)  
+- `GROUP BY`, `ORDER BY`  
+- Aggregate functions (`SUM`, `COUNT`, `AVG`)  
+- Filtering with `WHERE` and date conditions  
+- Subqueries for advanced analysis
 
-menu_items
 
-Contains menu information:
+## 🚀 How to Run
+1. Clone the repo
+2. Import database scripts into your SQL engine (MySQL/PostgreSQL/SQL Server)
+3. Load the CSV data into tables
+4. Execute SQL queries in your `*.sql` files
+5. Review results for business insights
 
-menu_item_id
-
-item_name
-
-category
-
-price
-
-order_details
-
-Contains order transaction data:
-
-order_details_id
-
-order_id
-
-order_date
-
-order_time
-
-item_id
-
-🎯 Business Problems Solved
-
-The following business questions were analyzed:
-
-Total number of items ordered
-
-Orders with the highest number of items
-
-Number of large orders (more than 12 items)
-
-Most ordered and least ordered menu categories
-
-Top 5 highest-revenue generating orders
-
-Items ordered within a specific date range
-
-Combined analysis of menu and order data
-
-🛠️ SQL Skills Used
-
-SELECT statements
-
-INNER JOIN and LEFT JOIN
-
-GROUP BY and ORDER BY
-
-Aggregate functions (COUNT, SUM)
-
-Subqueries
-
-Data filtering using WHERE
-
-Date filtering and analysis
-
-Relational database analysis
-
-📊 Key Insights
-
-Identified highest-spending orders and revenue patterns
-
-Found most popular and least popular food categories
-
-Analyzed customer ordering trends
-
-Evaluated sales performance using SQL queries
-
-💻 Tools & Technologies
-
-SQL
-
-MySQL / PostgreSQL / SQL Server
-
-GitHub
-
-📁 Project Structure
-Restaurant-SQL-Project/
-│
-├── SQL Queries.sql
-├── Dataset Files
-└── README.md
-🚀 Project Purpose
-
-This project was created to demonstrate practical SQL and data analysis skills required for Data Analyst roles. It showcases the ability to work with structured data, perform analysis, and generate business insights using SQL.
+## 📈 Business Impact
+This project demonstrates the ability to:
+- Turn raw data into actionable insights
+- Support decision‑making using SQL‑based analytics
+- Communicate analytical findings clearly
 
 by
-AMAN CHHABRA
+Aman Chhabra
